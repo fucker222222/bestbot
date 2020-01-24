@@ -16,10 +16,10 @@ borg.storage.PM_WARNS = {}
 borg.storage.PREV_REPLY_MESSAGE = {}
 
 
-BAALAJI_TG_USER_BOT = "`My Master hasn't approved you to PM. Don't spam me, tag him in @Uzumakilover`"
+BAALAJI_TG_USER_BOT = "`Chand pa hai apun aana tak wait karo,tag him in @Uzumakilover`"
 TG_COMPANION_USER_BOT = "`Please wait for his response and don't spam his PM. Tag him in @Uzumakilover`"
-UNIBORG_USER_BOT_WARN_ZERO = "`I am currently offline. Please do not SPAM me. Contact @Uzumakilover`"
-UNIBORG_USER_BOT_NO_WARN = "`Hi! I will answer to your message soon. Please wait for my response and don't spam my PM. Tag me in @Uzumakilover`"
+UNIBORG_USER_BOT_WARN_ZERO = "`Gand na fulao maa chod dega tumari. Please do not SPAM me. Contact @Uzumakilover`"
+UNIBORG_USER_BOT_NO_WARN = "`. Daar ki yahi dikkat hain kabhi bhi khatam ho sakta hai. Tag me in @Uzumakilover`"
 
 
 @borg.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
